@@ -15,6 +15,7 @@ import Signup from "./components/screens/Signup";
 import Createpost from "./components/screens/Createpost";
 import UserProfile from "./components/screens/UserProfile";
 import "./App.css";
+// import "./style.css";
 import { reducer, initialState } from "./reducers/userReducer";
 import FollowingPosts from "./components/screens/FollowingPosts";
 import Reset from "./components/screens/Reset";

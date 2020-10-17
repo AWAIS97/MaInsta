@@ -81,6 +81,10 @@ function Signup() {
   };
   return (
     <div className='card__login'>
+      <div className='image_login'>
+      <img src={require("./images/signup-image.jpg")} alt="sing up image"/>
+
+      </div>
       <div className='card card__loginBody input-field'>
         <h2>MaInsta</h2>
         <input

@@ -55,8 +55,14 @@ export default function Login() {
 
   return (
     <div className='card__login'>
+      <div className='image_login'>
+      <img src={require("./images/signin-image.jpg")} alt="sing up image"/>
+
+      </div>
       <div className='card card__loginBody input-field'>
         <h2 className='card__title'>MaInsta</h2>
+       
+
         <input
           className='card__loginInput-field'
           type='email'
@@ -64,6 +70,7 @@ export default function Login() {
           value={email}
           onChange={(event) => setEmail(event.target.value)}
         />
+      
         <input
           className='card__loginInput-field'
           type='password'
@@ -91,5 +98,7 @@ export default function Login() {
         </p>
       </div>
     </div>
+        
+        
   );
 }
